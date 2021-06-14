@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/swiast/favicon.ico"><title>map-proj</title><link rel="stylesheet" href="cssmap-europe/cssmap-europe.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet"><link href="/swiast/css/about.9f61b235.css" rel="prefetch"><link href="/swiast/css/chunk-4a6360ea.0bdef55a.css" rel="prefetch"><link href="/swiast/js/about.3cc48fb1.js" rel="prefetch"><link href="/swiast/js/chunk-4a6360ea.9d00b735.js" rel="prefetch"><link href="/swiast/css/app.ca611c0a.css" rel="preload" as="style"><link href="/swiast/js/app.4c156fe5.js" rel="preload" as="script"><link href="/swiast/js/chunk-vendors.0e9dd9f5.js" rel="preload" as="script"><link href="/swiast/css/app.ca611c0a.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but map-proj doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>window.TurnMapOn = function () {
+        $("#map-europe").CSSMap({
+          size: 1450,
+          mapStyle: "dark",
+          tooltips: "floating-top-center",
+          responsive: "auto",
+          tapOnce: true,
+          mobileSupport: true,
+          onClick: () => {
+            document.getElementById("link-for-all").click();
+          },
+          // visibleList: {
+          //   enable: true,
+          //   listPosition: "bottom",
+          //   columns: 8,
+          //   columnsGap: 0,
+          //   columnWidth: 0,
+          // },
+        });
+      };</script><script src="/swiast/js/chunk-vendors.0e9dd9f5.js"></script><script src="/swiast/js/app.4c156fe5.js"></script></body></html>
